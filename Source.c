@@ -1019,7 +1019,7 @@ int main()
 
 
 				do { // what year would you like to view
-					printf("What year would you like add players from?\n");
+					printf("\n\nWhat year would you like add players from?\n");
 					for (int j = 0; j < TEAM_AMT; j++) {
 						printf("%i\n", CURRENT_YEAR - j);
 					}
@@ -1091,10 +1091,10 @@ int main()
 					// done adding players
 				}
 
-				printf("Selection: %d\tCount: %i\n", indexPlayerSelection, count);
+				//printf("Selection: %d\tCount: %i\n", indexPlayerSelection, count);
 			}
 
-			printf("Players in your selection:\n");
+			printf("\n\n\n\nPlayers in your selection:\n");
 			printTeam(selectedBatters, count);
 
 			choiceForSorting = 0;
