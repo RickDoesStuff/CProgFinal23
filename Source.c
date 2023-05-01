@@ -1,6 +1,8 @@
+// Enrico Aquino
+// Baseball player analysis
+// C Prog Final 2023
+
 #define _CRT_SECURE_NO_DEPRECATE
-// C program to implement
-// the above approach
 #include <stdio.h>
 #include <string.h>
 //#include <gtk.h> 
